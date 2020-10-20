@@ -93,6 +93,41 @@ input[type=submit]:hover {
 
 /* end style of contact page */
 
+img {
+    height:46px;
+}
+
+body {
+    background-color:#DDD;
+    color:555;
+}
+
+ .Center {
+   margin: auto;
+   width: 7%;
+   border: 3px solid #222;
+   padding: 10px;
+}
+
+.Center2 {
+    text-align:center;
+}
+
+.Center3 {
+    margin: auto;
+    width:8%;
+    border:3px solid #222;
+    padding:10px;
+}
+
+.Center3 {
+    margin: auto;
+    width:10%;
+    border:3px solid #222;
+    padding:10px;
+}
+
+
 img.alert {
   height:300px;
 }
