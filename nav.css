@@ -1,5 +1,4 @@
-/* Navbar Start */
-
+/* Fixed sidenav, full height */
 .sidenav {
   height: 100%;
   width: 200px;
@@ -62,8 +61,4 @@
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
-
-
-
-  /*End Navbar/*
 }
