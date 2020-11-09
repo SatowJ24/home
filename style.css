@@ -59,13 +59,12 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: #444;
 }
 
 
 .container {
   border-radius: 5px;
-  background-color: #f2f2f2;
   padding: 10px;
 }
 
@@ -98,15 +97,16 @@ img {
 }
 
 body {
-    background-color:#DDD;
+    background-color:#7da3a1;
     color:555;
 }
 
  .Center {
-   margin: auto;
-   width: 7%;
-   border: 3px solid #222;
-   padding: 10px;
+   margin-left: auto;
+   width:61%;
+   font-size: 20px;
+   font-weight: bolder;
+   color: #FFF;
 }
 
 .Center2 {
@@ -116,17 +116,40 @@ body {
 .Center3 {
     margin: auto;
     width:8%;
-    border:3px solid #222;
+    border:3px solid #FFF;
     padding:10px;
 }
 
 .Center3 {
     margin: auto;
     width:10%;
-    border:3px solid #222;
+    border:3px solid #FFF;
     padding:10px;
 }
 
+.Center4 {
+    margin: auto;
+    width:34%;
+    border:14px solid #FFF;
+    padding:10px;
+    font-size: 75px;
+}
+
+.SuperClass {
+    margin-left: auto;
+    width:72%;
+    font-size: 50px;
+    font-weight: bolder;
+    color: #FFF;
+}
+
+.pstyle {
+    margin:auto;
+    width:60%;
+    color:000;
+    font-size:20px;
+    font-weight:500;
+}
 
 img.alert {
   height:300px;
