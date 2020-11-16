@@ -97,7 +97,7 @@ img {
 }
 
 body {
-    background-color:#7da3a1;
+    background-color:#FFF;
     color:555;
 }
 
@@ -106,7 +106,7 @@ body {
    width:61%;
    font-size: 20px;
    font-weight: bolder;
-   color: #FFF;
+   color: #000;
 }
 
 .Center2 {
@@ -116,21 +116,21 @@ body {
 .Center3 {
     margin: auto;
     width:8%;
-    border:3px solid #FFF;
+    border:3px solid #000;
     padding:10px;
 }
 
 .Center3 {
     margin: auto;
     width:10%;
-    border:3px solid #FFF;
+    border:3px solid #000;
     padding:10px;
 }
 
 .Center4 {
     margin: auto;
     width:34%;
-    border:14px solid #FFF;
+    border:14px solid #000;
     padding:10px;
     font-size: 75px;
 }
@@ -140,7 +140,7 @@ body {
     width:72%;
     font-size: 50px;
     font-weight: bolder;
-    color: #FFF;
+    color: #000;
 }
 
 .pstyle {

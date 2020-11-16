@@ -1,11 +1,11 @@
 <!DOCTYPE html>
     <html>
             <head>
-            <title>Aluminum Can Donations</title>
+            <title>Streetwise Catering</title>
             <link rel="stylesheet" type="text/css" href="style.css">
             <link rel="stylesheet" type="text/css" href="nav.css">
             <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
-
+            <
             </head>
             <body>
 
@@ -43,31 +43,24 @@
 </div>
 </div>
 
-
-
-
-
-
-
-
-
       <div class="container">
   <div style="text-align:center">
-    <h2 class="Center3" style=color:#FFF;>Contact Us</h2>
-    <p style="color:#FFF">Swing by for a donation, or leave us a message:</p>
+    <h2 class="Center3">Contact Us</h2>
+    <p>Call us at 614-580-7024, or leave us a message:</p>
   </div>
   <div class="row">
     <div class="column">
     </div>
     <div class="column">
-      <form action="mailto:2024vike@gmail.com" method="post" enctype="text/plain">
+      <form action="contact.php" method="post" enctype="text/plain">
         <label for="name">Full Name</label>
         <input type="text" id="Name" name="name" placeholder="Your name..">
-        <label for="subject">Subject</label>
-        <input type="text" id="subject" name="subject" placeholder="Subject...">
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" placeholder="example@yourdomain.com">
         <label for="country">Country</label>
         <select id="country" name="country">
-          <option value="Afganistan">Afghanistan</option>
+   <option value="Select Your Country">Select Your Country</option>
+   <option value="Afganistan">Afghanistan</option>
    <option value="Albania">Albania</option>
    <option value="Algeria">Algeria</option>
    <option value="American Samoa">American Samoa</option>
@@ -315,8 +308,8 @@
    <option value="Zimbabwe">Zimbabwe</option>
 
         </select>
-        <label for="messhere">Message Here:</label>
-        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <label for="message">Message Here:</label>
+        <textarea id="message" name="message" placeholder="Write something.." style="height:170px"></textarea>
         <input type="submit" class= "form-control submit" value="SEND MESSAGE">
       </form>
     </div>
