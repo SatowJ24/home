@@ -23,7 +23,7 @@
        <div class="sidenav">
 <a href="index.html">Home</a>
 <a href="about.html">About</a>
-<a href="contact.html">Contact</a>
+<a href="contact2.php">Contact</a>
 <button class="dropdown-btn">Menu
 <i class="fa fa-caret-down"></i>
 </button>
@@ -52,7 +52,7 @@
     <div class="column">
     </div>
     <div class="column">
-      <form action="contact.php" method="post" enctype="text/plain">
+      <form action="contact.php" method="post">
         <label for="name">Full Name</label>
         <input type="text" id="Name" name="name" placeholder="Your name..">
         <label for="email">Email</label>
@@ -309,8 +309,8 @@
 
         </select>
         <label for="message">Message Here:</label>
-        <textarea id="message" name="message" placeholder="Write something.." style="height:170px"></textarea>
-        <input type="submit" class= "form-control submit" value="SEND MESSAGE">
+        <textarea id="message" name="message" placeholder="Write something..." style="height:170px"></textarea>
+        <input type="submit" class="form-control submit" name="submit" value="SEND MESSAGE">
       </form>
     </div>
   </div>

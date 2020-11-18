@@ -41,14 +41,14 @@
 
 /* Add an active class to the active dropdown button */
 .active {
-  background-color:darkcyan;
+  background-color:#666;
   color: #000;
 }
 
 /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
 .dropdown-container {
   display: none;
-  background-color: #000;
+  background-color: #666;
   padding-left: 8px;
 }
 
