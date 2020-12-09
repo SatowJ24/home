@@ -28,24 +28,24 @@
 <i class="fa fa-caret-down"></i>
 </button>
 <div class="dropdown-container">
-<a href="#">Breakfast</a>
-<a href="#">Lunch</a>
-<a href="#">Dinner</a>
-<a href="#">Dessert</a>
+<a href="breakfast.html">Breakfast</a>
+<a href="lunch.html">Lunch</a>
+<a href="dinner.html">Dinner</a>
+<a href="dessert.html">Dessert</a>
 </div>
 <button class="dropdown-btn">Socials
 <i class="fa fa-caret-down"></i>
 </button>
 <div class="dropdown-container">
-<a href="#">Instagram</a>
-<a href="#">Twitter</a>
-<a href="#">Facebook</a>
+  <a href="https://www.instagram.com/officialstreetwisecatering/" target="_blank">Instagram</a>
+  <a href="https://twitter.com/streetwisectr">Twitter</a>
+  <a href="https://www.facebook.com/officialstreetwisecatering/?view_public_for=102584788336402">Facebook</a>
 </div>
 </div>
 
       <div class="container">
   <div style="text-align:center">
-    <h2 class="Center3">Contact Us</h2>
+    <h1 class="streetwiseopening" style="padding-right:520px;">Contact Us</h1>
     <p>Call us at 614-580-7024, or leave us a message:</p>
   </div>
   <div class="row">

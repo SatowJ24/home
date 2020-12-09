@@ -39,12 +39,12 @@ try {
     // Content
     $mail->isHTML(true);                                  // Set email format to HTML
     $mail->Subject = 'New Form';
-    $mail->Body = $message;
+    $mail->Body = $email."<br><br>".$message;
     //$mail->Body    = 'This is the HTML message body <b>in bold!</b>';
     //$mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
     $mail->send();
-    echo 'Message has been sent';
+    echo 'Congrats! Your message was sent. Click the arrow facing left in the top left corner of your browser to go back to our webpage. Thank you for your feedback!';
 } catch (Exception $e) {
     echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
 }
