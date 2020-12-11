@@ -1,99 +1,115 @@
 <!DOCTYPE html>
-    <html>
-            <head>
-            <title>Streetwise Catering</title>
-            <link rel="stylesheet" type="text/css" href="style.css">
-            <link rel="stylesheet" type="text/css" href="nav.css">
-            <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
-            <
-            <!-- Code injected by live-server -->
-<script type="text/javascript">
-	// <![CDATA[  <-- For SVG support
-	if ('WebSocket' in window) {
-		(function() {
-			function refreshCSS() {
-				var sheets = [].slice.call(document.getElementsByTagName("link"));
-				var head = document.getElementsByTagName("head")[0];
-				for (var i = 0; i < sheets.length; ++i) {
-					var elem = sheets[i];
-					head.removeChild(elem);
-					var rel = elem.rel;
-					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
-						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
-						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
-					}
-					head.appendChild(elem);
-				}
-			}
-			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
-			var address = protocol + window.location.host + window.location.pathname + '/ws';
-			var socket = new WebSocket(address);
-			socket.onmessage = function(msg) {
-				if (msg.data == 'reload') window.location.reload();
-				else if (msg.data == 'refreshcss') refreshCSS();
-			};
-			console.log('Live reload enabled.');
-		})();
-	}
-	// ]]>
-</script>
-</head>
-            <body>
+     <html>
+             <head>
+             <title>Streetwise Catering</title>
+             <link rel="stylesheet" type="text/css" href="style.css">
+             <link rel="stylesheet" type="text/css" href="nav.css">
+             <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+             <
+             Code injected by live-server
+     <script type="text/javascript">
+       // <![CDATA[  <-- For SVG support
+       if ('WebSocket' in window) {
+         (function() {
+           function refreshCSS() {
+             var sheets = [].slice.call(document.getElementsByTagName("link"));
+             var head = document.getElementsByTagName("head")[0];
+             for (var i = 0; i < sheets.length; ++i) {
+               var elem = sheets[i];
+               head.removeChild(elem);
+               var rel = elem.rel;
+               if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+                 var url = elem.href.replace(/(&|?)_cacheOverride=d+/, '');
+                 elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+               }
+               head.appendChild(elem);
+             }
+           }
+           var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+           var address = protocol + window.location.host + window.location.pathname + '/ws';
+           var socket = new WebSocket(address);
+           socket.onmessage = function(msg) {
+             if (msg.data == 'reload') window.location.reload();
+             else if (msg.data == 'refreshcss') refreshCSS();
+           };
+           console.log('Live reload enabled.');
+         })();
+       }
+       // ]]>
+     </script>
+     </head>
+             <body>
 
 
-         <br>
-         <!-- Navigation bar-->
-       <div id="nav-placeholder"> </div>
-       <script>
-       $(function(){
-       $("#nav-placeholder").load("nav.html");
+          <br>
+          <!-- Navigation bar -->
+        <div id="nav-placeholder"> </div>
+        <script>
+        $(function(){
+        $("#nav-placeholder").load("nav.html");
+        });
+        </script>
+        <! -- end of Navigation bar -->
+        <img src="https://www.freelogoservices.com/api/main/images/1j+ojFVDOMkX9Wytexe43D6kifOJrhJNnBjNwXs1M3EMoAJtliAsgvJp8...88" id="leftfloat">
+        <div class="sidenav">
+     <a href="index.html">Home</a>
+     <a href="about.html">About</a>
+     <a href="contact2.php">Contact</a>
+     <button class="dropdown-btn">Menu
+     <i class="fa fa-caret-down"></i>
+     </button>
+     <div class="dropdown-container">
+     <a href="breakfast.html">Breakfast</a>
+     <a href="lunch.html">Lunch</a>
+     <a href="dinner.html">Dinner</a>
+     <a href="dessert.html">Dessert</a>
+     </div>
+     <button class="dropdown-btn">Socials
+     <i class="fa fa-caret-down"></i>
+     </button>
+     <div class="dropdown-container">
+       <a href="https://www.instagram.com/officialstreetwisecatering/" target="_blank">Instagram</a>
+       <a href="https://twitter.com/streetwisectr">Twitter</a>
+       <a href="https://www.facebook.com/officialstreetwisecatering/?view_public_for=102584788336402">Facebook</a></div>
+     </div>
+
+
+     <h1 class="supermenu">LUNCH</h1>
+     <br>
+     <br>
+
+     <p class="menuitemleft">TURKEY SUB............................(10/15/20)</p>
+     <p class="menuitemleft-caption">A 6-inch sub on italian with turkey, cheddar, and LTO. </p>
+     <p class="menuitemleft">TOMATO SOUP........................(4 / PERSON)</p>
+     <p class="menuitemleft-caption"> An english muffin sandwich with cheddar, sausage, and eggs over easy. </p>
+     <p class="menuitemleft">TUNA ON WHITE......................(8 / PERSON)</p>
+     <p class="menuitemleft-caption">A tuna sandwitch with lettuce and cheddar.</p>
+     <p class="menuitemleft">OG MAC N' CHEESE...................(8 / PERSON)</p>
+     <a href="https://www.youtube.com/watch?v=S-oDb94T1jk" target="_blank"> <img src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/130692708_201979104853085_3399000831145419510_o.jpg?_nc_cat=107&ccb=2&_nc_sid=730e14&_nc_ohc=2WAbwSZrWMQAX_35GwL&_nc_ht=scontent-iad3-1.xx&oh=f0eb00688b1233e0e5dd7d9b276a2475&oe=5FF6843C" class="alert" id="rightfloat"></a>
+     <p class="menuitemleft-caption">Regular mac n' cheese from your childhood.</p>
+     <p class="menuitemleft">SUPER MAC...............................(25)</p>
+     <p class="menuitemleft-caption">MEGA fancy mac n' cheese, baked until crispy on top,<br> made with 6 different cheeses, sprinkled with basil.</p>
+     <p class="menuitemleft">TEMPURA SHRIMPER................(8 / PERSON)</p>
+     <p class="menuitemleft-caption">8 shirmp tempura with spicy mayo.</p>
+
+
+     <script>
+     // the whole point of this scripting is to allow the user to have access to multiple dropdowns without any difficulty
+     var dropdown = document.getElementsByClassName("dropdown-btn");
+     var i;
+
+     for (i = 0; i < dropdown.length; i++) {
+       dropdown[i].addEventListener("click", function() {
+       this.classList.toggle("active");
+       var dropdownContent = this.nextElementSibling;
+       if (dropdownContent.style.display === "block") {
+       dropdownContent.style.display = "none";
+       } else {
+       dropdownContent.style.display = "block";
+       }
        });
-       </script>
-       <!--end of Navigation bar -->
-       <img src="https://www.freelogoservices.com/api/main/images/1j+ojFVDOMkX9Wytexe43D6kifOJrhJNnBjNwXs1M3EMoAJtliAsgvJp8...88" id="leftfloat">
-       <div class="sidenav">
-<a href="index.html">Home</a>
-<a href="about.html">About</a>
-<a href="contact2.php">Contact</a>
-<button class="dropdown-btn">Menu
-<i class="fa fa-caret-down"></i>
-</button>
-<div class="dropdown-container">
-<a href="breakfast.html">Breakfast</a>
-<a href="lunch.html">Lunch</a>
-<a href="dinner.html">Dinner</a>
-<a href="dessert.html">Dessert</a>
-</div>
-<button class="dropdown-btn">Socials
-<i class="fa fa-caret-down"></i>
-</button>
-<div class="dropdown-container">
-  <a href="https://www.instagram.com/officialstreetwisecatering/" target="_blank">Instagram</a>
-  <a href="https://twitter.com/streetwisectr">Twitter</a>
-  <a href="https://www.facebook.com/officialstreetwisecatering/?view_public_for=102584788336402">Facebook</a></div>
-</div>
+     }
+     </script>
 
 
-<h1 class="supermenu">LUNCH</h1>
-
-
-<script>
-/* allows the user to have several dropdowns at a time without any issues */
-var dropdown = document.getElementsByClassName("dropdown-btn");
-var i;
-
-for (i = 0; i < dropdown.length; i++) {
-  dropdown[i].addEventListener("click", function() {
-  this.classList.toggle("active");
-  var dropdownContent = this.nextElementSibling;
-  if (dropdownContent.style.display === "block") {
-  dropdownContent.style.display = "none";
-  } else {
-  dropdownContent.style.display = "block";
-  }
-  });
-}
-</script>
-
-
-    </html>
+     </html> --> -->
